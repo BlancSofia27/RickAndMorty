@@ -1,0 +1,114 @@
+.nav{
+    border: 5px green;
+    background-image: url(../../img/navfondogalaxy.jpg);
+}
+
+.about {
+     border-top-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(118, 118, 122);
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: #5bff2e;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .about:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.3;
+  }
+  
+  .about:hover {
+    background-color: #e60096;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about:hover:before {
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s cubic-bezier(0.5, 1.6, 0.4, 0.8);
+  }
+  
+  .about:active:before {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .home {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+   font-size: medium;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   position: relative;
+   display: inline-block;
+   padding: 12px 30px;
+   font-size: 16px;
+   font-weight: 500;
+   color: rgb(118, 118, 122);
+   text-decoration: none;
+   text-transform: uppercase;
+   overflow: hidden;
+   transition: all 0.3s ease;
+   background-color: #5bff2e;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ .home:before {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: block;
+   width: 0;
+   height: 0;
+   border-radius: 50%;
+   background-color: #fff;
+   opacity: 0.3;
+ }
+ 
+ .home:hover {
+   background-color: #e02c62;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+ }
+ 
+ .home:hover:before {
+   width: 200px;
+   height: 200px;
+   transition: all 0.5s cubic-bezier(0.5, 1.6, 0.4, 0.8);
+ }
+ 
+ .home:active:before {
+   width: 100px;
+   height: 100px;
+   opacity: 0;
+   transition: all 0.3s ease;
+ }
+ 
+ 
+ 
