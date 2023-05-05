@@ -1,0 +1,172 @@
+
+    /*** ESTILOS BOTÓN GROW SKEW ***/
+.buttonNav {
+    background: #fff; /* color de fondo */
+    color: #31ccba; /* color de fuente */
+    border: 2px solid #31c4cc; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 26px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: x-large;
+  }
+  .buttonNav:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .buttonNav::after {
+    content: "";
+    background: #b031cc; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .buttonNav:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+  .buttonLogOut {
+    background: #fff; /* color de fondo */
+    color: #b031cc; /* color de fuente */
+    border: 2px solid #b031cc; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 26px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: x-large;
+  }
+  .buttonLogOut:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .buttonLogOut::after {
+    content: "";
+    background: #b031cc; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .buttonLogOut:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+  .buttonNav {
+    background: #fff; /* color de fondo */
+    color: #b031cc; /* color de fuente */
+    border: 2px solid #b031cc; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 26px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: x-large;
+    
+  }
+  .buttonNav:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .buttonNav::after {
+    content: "";
+    background: #b031cc; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .buttonNav:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+  .buttonHome {
+    background: #fff; /* color de fondo */
+    color: #b031cc; /* color de fuente */
+    border: 2px solid #b031cc; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 24px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: x-large;
+  }
+  .buttonHome:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .buttonHome::after {
+    content: "";
+    background: #b031cc; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .buttonHome:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+  .deleteLine{
+    text-decoration: none;
+
+  }
+
+  .navBar{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  justify-content: center;
+  }
+  
+  .boxButtons {
+    border: 2px solid #b031cc;
+    display: flex;
+    flex-grow: 1;
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navBar{
+    border: 2px solid #b031cc;
+    width:100%;
+  }
+  
+  
